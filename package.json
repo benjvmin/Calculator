@@ -4,12 +4,14 @@
   "description": "A Vue.js project",
   "author": "Benjamin Taylor <benjvmintaylor@gmail.com>",
   "private": true,
+  "homepage": "https://github.com/benjvmin/Calculator",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "watch": "webpack --watch --config build/webpack.dev.conf.js"
+    "watch": "webpack --watch --config build/webpack.dev.conf.js",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "vue": "^2.5.15"
@@ -59,6 +61,7 @@
     "style-loader": "^0.20.3",
     "uglifyjs-webpack-plugin": "^1.2.3",
     "url-loader": "^0.5.8",
+    "vue-gh-pages": "^1.10.2",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.15",
@@ -71,9 +74,5 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
 }
