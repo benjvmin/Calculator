@@ -1,6 +1,7 @@
 ![Calculator](https://benjvmin.github.io/Calculator/static/favicon.png)
-[Calculator Link!](https://benjvmin.github.io/Calculator/index.html)
+
 # A Simple, User Themable Calculator
+[Calculator Link!](https://benjvmin.github.io/Calculator/index.html)
 
 ## Features
 * 12 Custom Themes
